@@ -1,0 +1,21 @@
+tempo=int(input("Quantos anos tem o seu carro?"))
+if tempo<3:
+   print("carro novo")
+else:
+    print("carro velho")
+
+nome=str(input("Qual é o seu nome?"))
+if nome=="walter":
+   print(" nome feio")
+else:
+    print("nome bonito")
+
+
+n1=int(input("digite um valor:"))
+n2=int(input("digite um valor:"))
+m=(n1+n2)/2
+print(" A média foi:",m)
+if m>=6.0:
+   print(" Aprovado")
+else:
+    print("Reprovado")
